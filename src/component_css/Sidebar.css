@@ -1,0 +1,29 @@
+.sidebar_compose {
+    margin-top: 15px !important;
+    margin-left: 10px !important;
+    margin-bottom: 15px !important;
+    text-transform: capitalize !important;
+    background-image: none !important;
+    color: #3c4043 !important;
+    border-radius: 30px !important;
+    font-size: .875rem !important;
+    letter-spacing: .25px !important;
+    font-weight: 500 !important;
+    height: 48px !important;
+    min-width: 56px !important;
+    overflow: hidden !important;
+    padding: 0 24px 0 0 !important;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.sidebar_compose::before {
+    background: url("https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png");
+    content: '';
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 32px;
+    content: '';
+    display: block;
+    height: 48px;
+    min-width: 56px;
+}
